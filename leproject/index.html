@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>leproject</title>
+
+    <!-- 写一些公共的样式 -->
+    <style type="text/css" media="screen">
+    	*{
+    		margin:0;
+    		padding:0;
+    	}
+    	html,body{
+    		width:100%;
+    		height:100%;
+    		font-size:100px 
+    	}
+    </style>
+  </head>
+  <body>
+    <div id="app">
+    	
+    </div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>
+<script>
+
+	// 如果想布在任何屏幕下都能够适合的页面，需要动态计算并添加一个font-size,并且量的值也不用除以2，直接除以100就可以，100也是我们自己定义的只是为了好算
+	// 750是UI给我们的图标准模型
+	document.documentElement.style.fontSize=document.documentElement.clientWidth/750*100+"px";
+
+
+
+</script>
